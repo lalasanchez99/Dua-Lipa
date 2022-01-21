@@ -1,0 +1,242 @@
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: "Amatic SC", cursive;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.img-logo {
+  width: 150px;
+  height: 75px;
+  padding: 5px;
+  float: left;
+}
+
+.redes {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 35px;
+  transition: all 10s ease;
+  float: right;
+  padding: 5px;
+}
+.redes :hover {
+  transform: scale(1.2, 1.2);
+}
+
+nav {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 30px;
+  text-align: right;
+  padding: 10px 0px 20px 0px;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav li {
+  padding: 5px 10px;
+}
+nav ul li:hover {
+  background-color: #f3f2bc;
+}
+
+nav ul li {
+  transition: 1s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+  }
+  
+  .dualipa_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 2rem;
+  }
+  
+  .dualipa_grid .col {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .dualipa_grid .col:last-of-type {
+    margin-right: 0;
+  }
+  
+  .dualipa_grid .col .img {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://cdn2.chicmagazine.com.mx/uploads/media/2020/11/20/miley-cyrus-dua-lipa-prisoner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dualipa_grid .col-1 .img-1 {
+    background-image: url("https://telegrafi.com/wp-content/uploads/2020/11/eWlSlLiGsdUoRYAU7sDp.jpg");
+  }
+  
+  .dualipa_grid .col-1 .img-2 {
+    background-image:("https://pbs.twimg.com/media/DxUuadTWkAAeBZ1?format=jpg&name=large")
+  }
+  
+  .dualipa_grid .col-1 .img-3 {
+    background-image: url("https://i.redd.it/av4yjiqivbu71.jpg");
+  }
+  
+  .dualipa_grid .col-2 .img-1 {
+    background-image: url("https://assets.vogue.com/photos/614ec870aaee8492efdca250/master/w_2560%2Cc_limit/00001-Versace-Spring-2022-RTW-Milan-Credit-Alessandro-Lucioni-Gorunway.jpg");
+  }
+  
+  .dualipa_grid .col-2 .img-2 {
+    background-image: url("https://news.store.rambler.ru/img/2726f8dde22a586dfdd2a7756cbfcd64?img-1-resize=width%3A1280%2Cheight%3A960%2Cfit%3Acover&img-format=auto");
+  }
+  
+  .dualipa_grid .col-2 .img-3 {
+    background-image: url("https://media.glamour.mx/photos/6190a272f5ed039ceea87628/master/pass/202200.jpg");
+  }
+  
+  .dualipa_grid .col-3 .img-1 {
+    background-image: url("https://e.radio-grpp.io/normal/2018/08/17/112411_664024.jpg");
+  }
+  
+  .dualipa_grid .col-3 .img-2 {
+    background-image: url("https://www.thesun.co.uk/wp-content/uploads/2021/11/600988be-885a-4e7b-8f04-b9d9d55a75b8.jpg");
+  }
+  
+  .dualipa_grid .col-3 .img-3 {
+    background-image: url("https://img.bekiabelleza.com/galeria/114000/114286_m.jpg");
+  }
+  
+  
+  @media screen and (min-width: 675px) {
+    .dualipa_grid {
+      flex-direction: row;
+    }
+  
+    .dualipa_grid .col {
+      width: 50%;
+      margin-right: 1.5rem;
+      height: 1500px;
+    }
+  
+    .dualipa_grid .col-1 .img-1 {
+      height: 25%;
+    }
+  
+    .dualipa_grid .col-1 .img-2 {
+      height: 30%;
+    }
+  
+    .dualipa_grid .col-1 .img-3 {
+      height: 45%;
+    }
+  
+    .dualipa_grid .col-2 .img-1 {
+      height: 35%;
+    }
+  
+    .dualipa_grid .col-2 .img-2 {
+      height: 20%;
+    }
+  
+    .dualipa_grid .col-2 .img-3 {
+      height: 45%;
+    }
+  
+    .dualipa_grid .col-3 .img-1 {
+      height: 20%;
+    }
+  
+    .dualipa_grid .col-3 .img-2 {
+      height: 60%;
+    }
+  
+    .dualipa_grid .col-3 .img-3 {
+      height: 20%;
+    }
+
+  .pie {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    background-color: #f8f8d1;
+  }
+
+  .mapa{
+  width: 38%;
+  padding-left: 5px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  }
+
+  .sobre{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+  }
+  .redes2 {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 35px;
+    float: right;
+    text-align: center;
+  }
+  .info{
+    margin-top: 5px;
+    text-align: left;
+    padding-left:32% ;
+  }
+  .copy{
+    width: 100%;
+    max-width: 100%;
+    background-color: #fcfc9b;
+  }

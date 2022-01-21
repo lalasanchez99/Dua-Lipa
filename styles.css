@@ -1,0 +1,329 @@
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: "Amatic SC", cursive;
+  max-width: 1100px;
+  margin: 0 auto; 
+}
+
+.img-logo {
+  width: 150px;
+  height: 75px;
+  padding: 5px;
+  float: left;
+}
+
+.redes {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 35px;
+  transition: all 10s ease;
+  float: right;
+  padding: 5px;
+}
+.redes :hover {
+  transform: scale(1.2, 1.2);
+}
+
+nav {
+  font-family: "Londrina Sketch", cursive;
+  font-size: 30px;
+  text-align: right;
+  padding: 10px 0px 20px 0px;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav li {
+  padding: 5px 10px;
+}
+nav ul li:hover {
+  background-color: #f3f2bc;
+}
+
+nav ul li {
+  transition: 1s all;
+}
+
+.banner {
+  width: 1100px;
+  height: 400px;
+  display: block;
+  padding-top: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Londrina Sketch", cursive;
+  font-size: 20px;
+}
+
+.contenedor{
+  width: 32%;
+  display: inline-block;
+  align-items: left;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.contenedor figure{
+position: relative;
+height: 250px;
+width: 100%;
+overflow: hidden;
+-webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: 0px 15px 20px rgb(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.contenedor figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(235, 234, 172, 0.7);
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor figure:hover > .capa h2{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure .capa h2{
+  transition: all 500ms ease-out;
+  margin-bottom: 120px;
+}
+
+.contenedor figure:hover > img {
+  transform: scale(1.8);
+}
+
+.contenedor figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure .capa h3{
+  transition: all 500ms ease-out;
+  margin-bottom: 120px;
+}
+
+.contenedor figure:hover > .capa h4{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure .capa h4{
+  transition: all 500ms ease-out;
+  margin-bottom: 120px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+h5{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px; 
+}
+
+.contenedorfuture{
+  width: 32%;
+  display: inline-block;
+  align-items: left;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.contenedorfuture figure{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  }
+
+  .contenedorfuture figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .text1, .text2, .text3, .text4, .text5, .text6{
+    text-align: center;
+  }
+
+  .contenedordeluxe{
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px
+  }
+
+  .contenedordeluxe figure{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .contenedordeluxe figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedordont{
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px
+  }
+
+  .contenedordont figure{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .contenedordont figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedorphysical{
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+
+  .contenedorphysical figure{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .contenedorphysical figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedorbe{
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px
+  }
+
+  .contenedorbe figure{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .contenedorbe figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedorhotter{
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px
+  }
+
+  .contenedorhotter figure{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .contenedorhotter figure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .fp-video{
+    padding: 50px;
+  }
+
+  .pie {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    background-color: #f8f8d1;
+  }
+
+  .mapa{
+  width: 38%;
+  padding-left: 5px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  }
+
+  .sobre{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .redes2 {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 35px;
+    float: right;
+    text-align: center;
+  }
+  .info{
+    margin-top: 5px;
+    text-align: left;
+    padding-left:32% ;
+  }
+
+  .copy{
+    width: 100%;
+    max-width: 100%;
+    background-color: #fcfc9b; 
+  }
+ 
